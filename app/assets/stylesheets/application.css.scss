@@ -15,6 +15,7 @@
 
  @import "bootstrap-sprockets";
  @import "bootstrap";
+ @import 'font-awesome.css';
 
  $primary_1: #2AAEBC;
  $primary_2: #97FF7F;
@@ -31,7 +32,10 @@
 
 //Background Images
 
-
+.navbar-header .navbar-brand {
+   height: 48px;
+   margin: 0px;
+}
 
 
  /* navbar */
@@ -39,20 +43,11 @@
    background-color: transparent;
    border-color: transparent;
    margin-bottom: 0px;
-   padding-bottom: 0px;
+   padding-bottom:  0px;
    text-transform: uppercase;
    text-shadow: .5px .5px 0px $secondary_2;
  }
 
- .navbar-default .navbar-brand {
-  color: $primary_4;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
-  color: $primary_2;
-}
 
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -215,9 +210,10 @@ section#about .about-section .about-logo {
   margin: 50px;
 }
 
-section#about h2.section-subheading {
-  font-size: 32px;
-  margin-bottom: 75px;
+section#about h3.section-subheading {
+  font-size: 28px;
+  margin-top: 25px;
+  margin-bottom: 50px;
   color: $secondary_3;
 }
 
