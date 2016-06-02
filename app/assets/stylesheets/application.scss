@@ -12,11 +12,14 @@
  *
 
  */
-
+ @import "normalize-rails/normalize";
  @import "bootstrap-sprockets";
  @import "bootstrap";
- @import 'font-awesome.css';
+ @import "font-awesome";
+ @import "./*";
 
+
+ // Color Variables
  $primary_1: #2AAEBC;
  $primary_2: #97FF7F;
  $primary_3: #FF544F;
@@ -27,7 +30,9 @@
  $secondary_4: #EEEEDD;
 
 
-// Brand Logo Files
+ // Brand Logo Files
+ $logo_image: 'background_image_1.jpeg';
+
 
 
 //Background Images
@@ -78,21 +83,23 @@
   color: $primary_2;
   outline: none;
 }
-.navbar-default .navbar-nav > .active > a {
-  border-radius: 0;
-  color: $primary_4;
-  background-color: $primary_2;
-}
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: $primary_4;
-  background-color: $primary_2;
-}
+
+// .navbar-default .navbar-nav > .active > a {
+//   border-radius: 0;
+//   color: $primary_4;
+//   background-color: $primary_2;
+// }
+//
+// .navbar-default .navbar-nav > .active > a:hover,
+// .navbar-default .navbar-nav > .active > a:focus {
+//   color: $primary_4;
+//   background-color: $primary_2;
+// }
 
 
 /*  Header  */
 header {
-  background: image-url('background_image_1.jpeg');
+  background: image-url($logo_image);
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -201,25 +208,29 @@ fieldset[disabled] .intro-button.active {
 
 /*   About   */
 section#about {
+  height: 100vh;
   padding: 75px;
 
 }
 
 section#about .about-section .about-logo {
-  height: 100px;
+  height: 90px;
   margin: 50px;
 }
 
 section#about h3.section-subheading {
-  font-size: 28px;
+  font-size: 24px;
   margin-top: 25px;
   margin-bottom: 50px;
   color: $secondary_3;
 }
 
-/*    Services    */
+
+
+/*****    Services    *****/
 
 section#services {
+  height: 100vh;
   padding: 75px;
   background-color: $primary_3;
 }
@@ -245,11 +256,85 @@ section#services p.service-paragraphs {
   color: $secondary_1;
 }
 
-/*  Contact   */
+section#services i.fa-circle {
+  color: $primary_4;
+}
+
+section#services i.fa-desktop {
+  color: $primary_1
+}
+
+section#services i.fa-cloud {
+  color: $primary_1
+}
+
+section#services i.fa-code {
+  color: $primary_1
+}
+
+
+
+/*****    Team    *****/
+
+section#team {
+  height: 100vh;
+  background-color: $primary_1;
+}
+
+section#team .section-heading {
+  font-size: 40px;
+  margin: 50px;
+  color: $primary_4;
+}
+
+section#team .section-subheading {
+  margin-bottom: 50px;
+  color: $secondary_2;
+}
+
+section#team .team-member {
+
+  text-align: center;
+  margin-bottom: 50px;
+}
+section#team .team-member img {
+  margin: 0 auto;
+  border: 2px solid $primary_4;
+}
+
+section#team .team-member .member-name {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: $primary_4;
+}
+
+section#team .team-member p.member-title {
+  margin-top: 0;
+  color: $secondary_1;
+  font-size: 14px;
+}
+
+section#team .team-member .team-image {
+  height: 250px;
+}
+
+section#team .social-buttons a {
+  color: $primary_2;
+}
+
+
+
+
+
+
+
+
+/*****    Contact    *****/
 section#contact {
   padding: 75px;
-  background-color: $primary_1;
-  color: $primary_4;
+  height: 100vh;
+  background-color: $primary_2;
+  color: $secondary_1;
 }
 
 section#contact h2.section-heading {
