@@ -34,7 +34,6 @@
  $logo_image: 'background_image_1.jpeg';
 
 
-
 //Background Images
 
 .navbar-header .navbar-brand {
@@ -208,13 +207,19 @@ fieldset[disabled] .intro-button.active {
 
 /*   About   */
 section#about {
-  height: 100vh;
+  min-height: 100vh;
   padding: 75px;
 
 }
 
+section#about .container {
+  display: flex;
+  align-items: center
+}
+
+
 section#about .about-section .about-logo {
-  height: 90px;
+  height: 180px;
   margin: 50px;
 }
 
@@ -227,17 +232,17 @@ section#about h3.section-subheading {
 
 
 
-/*****    Services    *****/
+/*****    Services    *2***/
 
 section#services {
-  height: 100vh;
+  min-height: 100vh;
   padding: 75px;
   background-color: $primary_3;
 }
 section#services h2.section-heading {
-  font-size: 40px;
+  font-size: 50px;
   margin-top: 0;
-  margin-bottom: 75px;
+  margin-bottom: 100px;
   color: $primary_4;
 }
 
@@ -248,12 +253,13 @@ section#services h2.section-heading {
 }
 
 section#services h4.service-heading {
-  margin: 15px 0;
+  margin: 30px;
   text-transform: none;
   color: $primary_4;
 }
 section#services p.service-paragraphs {
-  color: $secondary_1;
+  color: $secondary_2;
+  margin: 35px;
 }
 
 section#services i.fa-circle {
@@ -277,23 +283,31 @@ section#services i.fa-code {
 /*****    Team    *****/
 
 section#team {
-  height: 100vh;
+  min-height: 100vh;
   background-color: $primary_1;
 }
 
 section#team .section-heading {
-  font-size: 40px;
+  font-size: 50px;
   margin: 50px;
   color: $primary_4;
 }
 
 section#team .section-subheading {
   margin-bottom: 50px;
-  color: $secondary_2;
+  color: $primary_4;
+}
+
+section#team hr {
+  width: 50%;
+}
+
+section#team .team-members {
+  margin-top: 75px;
+
 }
 
 section#team .team-member {
-
   text-align: center;
   margin-bottom: 50px;
 }
@@ -331,20 +345,20 @@ section#team .social-buttons a {
 
 /*****    Contact    *****/
 section#contact {
-  padding: 75px;
-  height: 100vh;
+  min-height: 100vh;
   background-color: $primary_2;
-  color: $secondary_1;
 }
 
 section#contact h2.section-heading {
-
-  margin: 25px;
+  font-size: 50px;
+  margin: 50px;
+  color: $secondary_2;
 }
 
 
-section#contact h4.section-subheading {
 
+section#contact h4.section-subheading {
+  color: $secondary_2;
   padding: 25px;
 }
 
