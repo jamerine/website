@@ -98,7 +98,7 @@
 
 /*  Header  */
 header {
-  background: image-url($logo_image);
+  background: image-url($logo_image) center center;
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -224,7 +224,7 @@ section#about .about-section .about-logo {
 }
 
 section#about h3.section-subheading {
-  font-size: 24px;
+  font-size: 20px;
   margin-top: 25px;
   margin-bottom: 50px;
   color: $secondary_3;

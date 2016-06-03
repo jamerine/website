@@ -35,15 +35,14 @@ $(window).load(function() {
       console.log("success");
       $("nav").css("background-color", "#383838");
       // $(".nav li a:active").css("color", primary2);
-      $("#navbar-brand").attr('src', 'Dittoh 3-Color Logo Varations-03-website-logo.png');
+
     } else {
       $("nav").css("background-color", "transparent");
       // $(".nav li a").css("color", "white")
     }
-    if ($(window).scrollTop() >= $(window).height()) {
-      $(".nav li a.active").css("color", primary2);
-    } else {
-      $(".nav li a").css("color", "white");
-    }
   });
+
+  $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function() {
+        $('.navbar-toggle:visible').click();
+    });
 });
