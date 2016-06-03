@@ -218,9 +218,11 @@ section#about .container {
 }
 
 
-section#about .about-section .about-logo {
+section#about .about-section .about-logo:empty {
   height: 180px;
   margin: 50px;
+  left: 50%;
+
 }
 
 section#about h3.section-subheading {
