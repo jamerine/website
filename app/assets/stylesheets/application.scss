@@ -289,7 +289,7 @@ section#team {
 
 section#team .section-heading {
   font-size: 50px;
-  margin: 50px;
+  margin: 100px;
   color: $primary_4;
 }
 
@@ -303,7 +303,7 @@ section#team hr {
 }
 
 section#team .team-members {
-  margin-top: 75px;
+
 
 }
 
@@ -345,23 +345,77 @@ section#team .social-buttons a {
 
 /*****    Contact    *****/
 section#contact {
-  min-height: 100vh;
+  min-height: 500px;
   background-color: $primary_2;
 }
 
 section#contact h2.section-heading {
   font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: $secondary_2;
+}
+
+section#contact hr.primary {
+ margin-top: 20px;
+ margin-bottom: 20px;
+ border-width: 3px;
+ max-width: 100px;
+ border: 1px solid $secondary_2;
+}
+
+
+section#contact .section-subheading {
+  color: $secondary_2;
   margin: 50px;
-  color: $secondary_2;
+}
+
+section#contact .contact-icons {
+  margin: 75px;
 }
 
 
+/*    Footer    */
 
-section#contact h4.section-subheading {
-  color: $secondary_2;
-  padding: 25px;
+footer {
+  padding: 25px 0;
+  text-align: center;
 }
-
-section#contact a.email-address {
-  text-decoration: none;
+footer span.copyright {
+  line-height: 40px;
+  text-transform: none;
+}
+footer ul.quicklinks {
+  margin-bottom: 0;
+  line-height: 40px;
+  text-transform: none;
+}
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: $primary_1;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: $primary_3;
+  color: $primary_2;
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none;
 }

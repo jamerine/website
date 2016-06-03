@@ -1,12 +1,12 @@
 // Color Variables
-var primary1: "#2AAEBC";
-var primary2: "#97FF7F";
-var primary3: "#FF544F";
-var primary4: "#FFFFFF";
-var secondary1: "#000815";
-var secondary2: "#383838";
-var secondary3: "#B0BFBE";
-var secondary4: "#EEEEDD";
+var primary1 = "#2AAEBC";
+var primary2 = "#97FF7F";
+var primary3 = "#FF544F";
+var primary4 = "#FFFFFF";
+var secondary1 = "#000815";
+var secondary2 = "#383838";
+var secondary3 = "#B0BFBE";
+var secondary4 = "#EEEEDD";
 
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
@@ -26,15 +26,16 @@ $(window).load(function() {
   // if ($(window).height() > 950) {
   //
   // }
-  
+
 
 
 
    $(window).scroll(function(event) {
     if ($(window).scrollTop() >= $(window).height()) {
       console.log("success");
-      $("nav").css("background-color", "black");
+      $("nav").css("background-color", "#383838");
       // $(".nav li a:active").css("color", primary2);
+      $("#navbar-brand").attr('src', 'Dittoh 3-Color Logo Varations-03-website-logo.png');
     } else {
       $("nav").css("background-color", "transparent");
       // $(".nav li a").css("color", "white")
