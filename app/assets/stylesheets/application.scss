@@ -214,14 +214,13 @@ section#about {
 
 section#about .container {
   display: flex;
-  align-items: center
+  align-items: center;
 }
 
 
 section#about .about-section .about-logo:empty {
   height: 180px;
   margin: 50px;
-  left: 50%;
 
 }
 
