@@ -110,16 +110,20 @@ header {
   color: $primary_4;
   text-shadow: .5px .5px 0px $secondary_2;
 }
-header .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
+
+header .container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
-header .intro-text .intro-lead-in {
-  font-style: italic;
-  font-size: 22px;
-  line-height: 22px;
-  margin-bottom: 25px;
-}
+
+// header .container
+// header .intro-text {
+//   padding-top: 100px;
+//   padding-bottom: 50px;
+// }
+
 header .intro-text .intro-heading {
   text-transform: uppercase;
   font-weight: 700;
@@ -178,13 +182,6 @@ fieldset[disabled] .intro-button.active {
 
 
 
-
-
-
-
-
-
-
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 300px;
@@ -205,31 +202,35 @@ fieldset[disabled] .intro-button.active {
   }
 }
 
+
+
+
+
+
+
+
 /*   About   */
 section#about {
-  min-height: 100vh;
-  padding: 75px;
 
 }
 
 section#about .container {
   display: flex;
+  height: 100vh;
   align-items: center;
+  justify-content: space-around;
 }
 
 
 section#about .about-section .about-logo:empty {
   height: 180px;
-  margin: 50px;
-  left: 50%;
-
+  margin-bottom: 50px;
 }
 
 section#about h3.section-subheading {
   font-size: 20px;
-  margin-top: 25px;
-  margin-bottom: 50px;
   color: $secondary_3;
+  margin-bottom: 50px;
 }
 
 
