@@ -12,26 +12,16 @@
  *
 
  */
+ @import "brand_variables";
  @import "normalize-rails/normalize";
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
  @import "./*";
+ @import "welcome";
 
 
- // Color Variables
- $primary_1: #2AAEBC;
- $primary_2: #97FF7F;
- $primary_3: #FF544F;
- $primary_4: #FFFFFF;
- $secondary_1: #000815;
- $secondary_2: #383838;
- $secondary_3: #B0BFBE;
- $secondary_4: #EEEEDD;
 
-
- // Brand Logo Files
- $logo_image: 'background_image_1.jpeg';
 
 
 //Background Images
@@ -41,16 +31,14 @@
    margin: 0px;
 }
 
-
- /* navbar */
- .navbar-default {
-   background-color: transparent;
-   border-color: transparent;
-   margin-bottom: 0px;
-   padding-bottom:  0px;
-   text-transform: uppercase;
-   text-shadow: .5px .5px 0px $secondary_2;
- }
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  margin-bottom: 0px;
+  padding-bottom:  0px;
+  text-transform: uppercase;
+  text-shadow: .5px .5px 0px $secondary_2;
+}
 
 
 .navbar-default .navbar-collapse {
@@ -232,9 +220,16 @@ section#about .about-section .about-logo:empty {
 section#about h3.section-subheading {
   font-size: 20px;
   color: $secondary_3;
-  margin-top: 50px;
+  margin: 100px;
 }
 
+
+@media screen and (max-width: 480px) {
+  section#about h3.section-subheading {
+    margin: 15px;
+    font-size: 20px;
+  }
+}
 
 
 /*****    Services    *2***/
