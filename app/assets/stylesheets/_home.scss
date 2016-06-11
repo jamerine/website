@@ -1,0 +1,83 @@
+.cd-fixed-bg.cd-bg-1 {
+  background: image-url("background_image_1.jpeg");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.intro-heading {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+  color: $primary_4;
+  text-shadow: .5px .5px 0px $secondary_2;
+}
+
+.intro-button {
+  color: $primary_4;
+  background-color: $primary_1;
+  border-color: $primary_1;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.intro-button:hover,
+.intro-button:focus,
+.intro-button:active,
+.intro-button.active,
+.open .dropdown-toggle.intro-button {
+  color: $primary_2;
+  background-color: $primary_3;
+  border-color: $primary_3;
+}
+.intro-button:active,
+.intro-button.active,
+.open .dropdown-toggle.intro-button {
+  background-image: none;
+}
+.intro-button.disabled,
+.intro-button[disabled],
+fieldset[disabled] .intro-button,
+.intro-button.disabled:hover,
+.intro-button[disabled]:hover,
+fieldset[disabled] .intro-button:hover,
+.intro-button.disabled:focus,
+.intro-button[disabled]:focus,
+fieldset[disabled] .intro-button:focus,
+.intro-button.disabled:active,
+.intro-button[disabled]:active,
+fieldset[disabled] .intro-button:active,
+.intro-button.disabled.active,
+.intro-button[disabled].active,
+fieldset[disabled] .intro-button.active {
+  background-color: $primary_1;
+  border-color: $primary_1;
+}
+.intro-button .badge {
+  color: $primary_1;
+  background-color: $primary_4;
+}
+
+.cd-scrolling-bg.cd-color-1 {
+  background-color: $primary_4;
+
+  height: 100vh;
+}
+
+.cd-scrolling-bg.cd-color-1 .home-child {
+  margin: 50px;
+}
+
+.about-logo { 
+  height: 180px;
+}
+
+.section-subheading {
+  padding-top: 50px;
+  font-size: 24px;
+}

@@ -1,0 +1,43 @@
+
+.cd-scrolling-bg.cd-color-3 {
+  background-color: $primary_1;
+  padding: 75px;
+  height: 100vh;
+}
+
+.team-section {
+  background-color: $primary_1;
+}
+.team-members {
+  margin-top: 75px;
+
+}
+
+.team-member {
+  text-align: center;
+  margin: 25px;
+}
+.team-member img {
+  margin: 0 auto;
+  border: 2px solid $primary_4;
+}
+
+.team-member .member-name {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: $primary_4;
+}
+
+.team-member p.member-title {
+  margin-top: 0;
+  color: $secondary_1;
+  font-size: 14px;
+}
+
+.team-member .team-image {
+  height: 250px;
+}
+
+.social-buttons a {
+  color: $primary_2;
+}

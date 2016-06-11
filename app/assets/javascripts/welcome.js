@@ -21,28 +21,28 @@ var secondary4 = "#EEEEDD";
 // });
 
 // JQuery for navigation bar
-$(window).load(function() {
-  console.log($(window).height());
-  // if ($(window).height() > 950) {
-  //
-  // }
-
-
-
-
-   $(window).scroll(function(event) {
-    if ($(window).scrollTop() >= $(window).height()) {
-      console.log("success");
-      $("nav").css("background-color", "#383838");
-      // $(".nav li a:active").css("color", primary2);
-
-    } else {
-      $("nav").css("background-color", "transparent");
-      // $(".nav li a").css("color", "white")
-    }
-  });
-
-  $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function() {
-        $('.navbar-toggle:visible').click();
-    });
-});
+// $(window).load(function() {
+//   console.log($(window).height());
+//   // if ($(window).height() > 950) {
+//   //
+//   // }
+//
+//
+//
+//
+//    $(window).scroll(function(event) {
+//     if ($(window).scrollTop() >= $(window).height()) {
+//       console.log("success");
+//       $("nav").css("background-color", "#383838");
+//       // $(".nav li a:active").css("color", primary2);
+//
+//     } else {
+//       $("nav").css("background-color", "transparent");
+//       // $(".nav li a").css("color", "white")
+//     }
+//   });
+//
+//   $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function() {
+//         $('.navbar-toggle:visible').click();
+//     });
+// });

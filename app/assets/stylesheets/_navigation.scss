@@ -1,0 +1,45 @@
+.navbar-header .navbar-brand {
+   height: 48px;
+   margin: 0px;
+}
+
+.navbar-default {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: transparent;
+  margin-bottom: 0px;
+  padding-bottom:  0px;
+  color: $primary_3;
+  text-transform: uppercase;
+  text-shadow: .5px .5px 0px $secondary_2;
+}
+
+
+.navbar-default .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-default .navbar-toggle {
+  background-color: $primary_2;
+  border-color: $primary_2;
+  text-shadow: .5px .5px 0px $secondary_2;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: $primary_4;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: $primary_2;
+}
+
+
+
+.navbar-default .nav li a {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: $secondary_1;
+}
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+  color: $primary_2;
+  outline: none;
+}

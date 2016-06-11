@@ -1,0 +1,50 @@
+.cd-fixed-bg.cd-bg-2 {
+  background: image-url("background_image_2.jpeg");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+
+.cd-container.container.services-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 75px;
+}
+
+.cd-container .service {
+  background-color: rgba(255, 84, 79, 0.85);
+  margin: 10px;
+  border-radius: 25px;
+  padding: 50px;
+  box-shadow: 10px;
+}
+
+.services-section h4.service-heading {
+  color: $secondary_1;
+  margin: 20px;
+}
+
+
+.services-section p.service-paragraphs {
+  color: $secondary_1;
+  margin: 35px;
+}
+
+.services-section .fa-circle {
+  color: $primary_4;
+}
+
+.services-section .fa-desktop {
+  color: $primary_1
+}
+
+.services-section .fa-cloud {
+  color: $primary_1
+}
+
+.services-section .fa-code {
+  color: $primary_1
+}
