@@ -19,6 +19,18 @@
  @import "font-awesome";
  @import "./*";
 
+ html * {
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ }
+
+ *, *:after, *:before {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+
+
 
 body, html, main {
 /* important */
@@ -45,7 +57,7 @@ body, html, main {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+
 }
 
 .heading {
@@ -53,5 +65,5 @@ body, html, main {
   font-weight: 400;
   font-size: 80px;
   color: $primary_4;
-  text-shadow: .5px .5px 0px $secondary_2;
+  text-shadow: 1px 1px 0px $secondary_2;
 }
