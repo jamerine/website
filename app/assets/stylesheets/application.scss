@@ -13,10 +13,17 @@
 
  */
  @import "brand_variables";
+ @import "contact";
+ @import "footer";
+ @import "home";
+ @import "navigation";
+ @import "services";
+ @import "team";
  @import "normalize-rails/normalize";
  @import "bootstrap-sprockets";
  @import "bootstrap";
  @import "font-awesome";
+
  @import "./*";
 
  html * {
