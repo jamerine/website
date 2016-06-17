@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: rgba(151, 255, 128, 0.85);
+  background-color: rgba(255, 255, 255, 0.85);
   margin-top: 75px;
   border-radius: 25px;
   padding: 50px;
@@ -39,4 +39,25 @@
 
 .contact-section .contact-icons {
   margin: 75px;
+}
+
+
+.contact-section .contact-icons a {
+  color: $primary_1;
+}
+
+.contact-icons {
+  margin-bottom: 0;
+}
+.contact-icons a {
+  color: $primary_1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.contact-icons a:hover,
+.contact-icons a:focus,
+.contact-icons a:active {
+  color: $primary_2;
 }

@@ -13,24 +13,30 @@
   justify-content: space-around;
 }
 
+.heading {
+  // margin-bottom: 50px;
+}
+
 .cd-container .service {
-  background-color: rgba(255, 84, 79, 0.98);
+  background-color: rgba(0, 8, 20, 0.75);
   margin: 10px;
   border-radius: 25px;
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   box-shadow: 10px;
+  max-width: 400px;
 }
 
 
 
 .services-section h4.service-heading {
-  color: $secondary_1;
+  color: $primary_4;
   margin: 20px;
 }
 
 
 .services-section p.service-paragraphs {
-  color: $secondary_1;
+  color: $secondary_3;
   margin: 35px;
 }
 
@@ -39,13 +45,13 @@
 }
 
 .services-section .fa-desktop {
-  color: $primary_1
+  color: $primary_3
 }
 
 .services-section .fa-cloud {
-  color: $primary_1
+  color: $primary_3
 }
 
 .services-section .fa-code {
-  color: $primary_1
+  color: $primary_3
 }

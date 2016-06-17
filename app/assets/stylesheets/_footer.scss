@@ -40,3 +40,16 @@ ul.social-buttons li a:active {
 .btn:active:focus {
   outline: none;
 }
+
+a {
+  color: $primary_1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: $primary_2;
+}
